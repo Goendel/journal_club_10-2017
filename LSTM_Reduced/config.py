@@ -29,7 +29,7 @@ class Config:
 
     lambda_loss_amount = 0
 
-    EULER = True
+    EULER = False
 
 
     max_epoch = 100
@@ -45,9 +45,9 @@ class Config:
 # PREDICTION:
     number_init_conditions = 100
     dt = 0.01 # for computation of next state (iterative prediction)
-    T = 50
+    T = 1
     pert_A = 0
-    N1 = 2
+    N1 = 1
 
 
     sigma = 10

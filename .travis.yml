@@ -1,8 +1,8 @@
 language: python
 python:
   - "3.6"
-# command to run tests
+cache: pip
 install:
-    pip install numpy scipy tensorflow sklearn pytest
+  - pip install numpy scipy tensorflow sklearn pytest
 script:
-  - pytest
+    - pytest:

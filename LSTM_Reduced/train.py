@@ -13,6 +13,7 @@ import sklearn.preprocessing as sk
 from sklearn.metrics import mean_squared_error
 
 
+
 def assertCorrectInputSize(input_sequence, target_sequence, input_size):
     if any([input_size!=np.shape(input_sequence)[1], input_size!=np.shape(target_sequence)[1]]):
         raise ValueError("ERROR: INCORECT INPUT SIZE!")

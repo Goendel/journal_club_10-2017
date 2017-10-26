@@ -11,11 +11,6 @@ git commit -m "message"
 
 git push -u origin master
 
-
-
-
-
-
 git pull origin master
 
 

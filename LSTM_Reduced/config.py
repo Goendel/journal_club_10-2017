@@ -2,10 +2,10 @@ import os
 import numpy as np
 
 class Config:
-    sequence_length = 25
+    sequence_length = 5
     input_size = 1
-    num_units = 50
-    learning_rate = 0.0001
+    num_units = 10
+    learning_rate = 0.01
 
     activation = "tanh"
     init = "xavier"
@@ -20,7 +20,7 @@ class Config:
 
     if (type == "stateless"):
         prop_horizon = 0
-        batch_size = 100
+        batch_size = 200
         pred_time = 1 # MUST
     if (type == "statefull"):
         prop_horizon = 100
@@ -43,7 +43,7 @@ class Config:
 
 
 # PREDICTION:
-    number_init_conditions = 100
+    number_init_conditions = 1
     dt = 0.01 # for computation of next state (iterative prediction)
     T = 1
     pert_A = 0

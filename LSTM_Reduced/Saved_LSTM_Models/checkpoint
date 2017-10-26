@@ -1,0 +1,2 @@
+model_checkpoint_path: "lstm_model_stateless_SL_5_NU_10_PH_0_LR_10000_tanh_xavier_identity_standart.ckpt"
+all_model_checkpoint_paths: "lstm_model_stateless_SL_5_NU_10_PH_0_LR_10000_tanh_xavier_identity_standart.ckpt"

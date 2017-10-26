@@ -75,10 +75,7 @@ class Config:
 
 
 
-    if EULER == False:
-        lstm_module_path = "/Users/pantelisvlachas/Documents/PhD/PROJECT_LSTM/lstm_module"
-    else:
-        lstm_module_path = "/cluster/home/pvlachas/project_lstm/lstm_module"
+    lstm_module_path = "."
 
 
 

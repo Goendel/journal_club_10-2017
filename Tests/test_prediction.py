@@ -10,5 +10,5 @@ def capital_case(x):
 def test_capital_case():
     assert capital_case('semaphore') == 'Semaphore'
 
-#def test_capital_case_2():
-#    assert capital_case('semaphore') == 'aek'
+def test_capital_case_2():
+    assert capital_case('semaphore') == 'aek'

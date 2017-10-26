@@ -11,4 +11,4 @@ cache: pip
 install:
   - pip install numpy scipy tensorflow sklearn pytest
 script:
-    - pytest:
+    - pytest

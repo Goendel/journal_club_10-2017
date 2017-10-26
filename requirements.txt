@@ -1,1 +1,1 @@
-numpy scipy tensorflow sklearn
+numpy scipy tensorflow sklearn pytest

@@ -21,6 +21,8 @@ git pull origin master
 
 
 
+# ACTIVATION OF PYTESTS
+source pytest-env/bin/activate
 
 
 

@@ -1,6 +1,12 @@
 language: python
 python:
   - "3.6"
+notifications:
+    email:
+        recipients:
+            - pvlachas@ethz.ch
+        on_success: always
+        on_failure: always
 cache: pip
 install:
   - pip install numpy scipy tensorflow sklearn pytest

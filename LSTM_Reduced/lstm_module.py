@@ -78,7 +78,7 @@ class lstm(object):
         if self.type=="stateless":
             self.cell, self.outputs, self.states = computeStatelessLSTMCell(self.num_units, self.activation, self.input, self.init)
         self.prediction = constructOutputLayer(self.outputs, self.num_units, self.input_size, self.init, self.pred_time, self.output_activation)
-        self.prediction = self.prediction/2
+        self.prediction = self.prediction
         
         # Training
         self.target = tf.placeholder(tf.float64, shape=[None, self.pred_time, self.input_size]) # placeholder for training target (output)

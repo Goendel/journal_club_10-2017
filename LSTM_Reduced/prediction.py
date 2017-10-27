@@ -246,7 +246,7 @@ def prediction(conf):
         #    true_evolution_en[:,:,:,ic] = true_evolution_ic_en
 
             # record LSTM prediction results
-            predicted_evolution_en_mean[:,:,ic] = np.mean(predicted_evolution_en_ic, axis=1)
+            predicted_evolution_en_mean[:,:,ic] = np.mean(predicted_evolution_en_ic, axis=1)/2
             true_evolution[:,:,ic] = true_evolution_ic
 
     print("\n")
